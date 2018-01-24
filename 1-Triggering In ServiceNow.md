@@ -146,7 +146,7 @@ Below is an example of this:
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-ExampleProcessedEvent.png)
 
 ----
-Summary
+# Summary
 - ServiceNow works by using activities to read from JMS Queues
 - Data should ordinarily be saved to a table and processed from there not on the fly. 
 - Triggering in ServiceNow happens through Events written to the system event registry OR the em_event table.
