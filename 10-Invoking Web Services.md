@@ -6,4 +6,14 @@ The primary methods of invoking web services are :
 ### From a workflow : configure a custom Rest Activity 
 Very similar to adding a JMS activity, a REST activity offers up different execution fields but usage is the same. 
 
-![Rest]()
+![Rest](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/RestActivity.png)
+
+### From the REST Explorer and into a script
+Using this mode of operation, we use the REST API Explorer to test an actual real life Web Service and then servicenow will generate the required code for you to place into a script
+
+### Use a REST Message object to run against a service
+Configure a REST message and use the 'Test' option to execute it 
+
+![Rest](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/RestMessage.png)
+
+
