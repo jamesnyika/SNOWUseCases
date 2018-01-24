@@ -123,7 +123,22 @@ We need a workflow with a looping construct to be able to repeatedly poll the me
 
 In this workflow we do two of these. We will create a record in the Event Management Event table. We will also create a business event. 
 The workflow we will design will look as follows and is a polling workflow for reading from the queue and doing something with the message. 
+
+Some things to notice:
+- We are using the JMS Activity we created above in this workflow
+- Our begin activity goes to a timer which lasts 30 seconds before killing the process. This is only used to prevent us from having an endless loop for this process instance. It ensures that it only runs for 30 seconds. 
+- Turnstile : used to only allow a certain number of loops to be performed. We set this to 5.
+- Chaining - we decided to chain the creation of a system event and the running of a script which creates an event record with each loop.
+
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-Workflow.png)
+
+Here is the Create Event Activity
+
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-SystemCreateEvent.png)
+
+And here is the Run Script Activity content
+
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/8-JMSPoller-CreateEvent.png)
 
 
 
