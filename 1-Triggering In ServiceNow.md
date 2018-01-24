@@ -29,7 +29,7 @@ Under the same "Connections and Credentials" menu, configure a new Connection as
 - InitialContextFactory (this is the name of the JMS initial context factory. Your JMS Queue provider normally tells you this)
 - Provider URL (this is the url to the running queue instance. Your JMS Queue provider normally tells you this)
 - Also make sure you check "Use MID Server" to true (tick mark). 
-- Your Credential field will be the name of the credential you configured in Step 2.
+- Your Credential field will be the name of the credential you configured in [Step 2](#step-1--configure-your-mid-server).
  
  ![Connection Configuration](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Connection.png)
 
