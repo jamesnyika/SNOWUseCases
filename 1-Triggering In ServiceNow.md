@@ -70,11 +70,26 @@ Key points
  ## Step 6 : Create a Custom Activity for Getting Messages off a JMS Queue
 The next steps require that you have the ServiceNow Orchestration plugin turned on and you have the appropriate roles to configure workflows. More information is here on:
    - [Activating Orchestration](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/product/orchestration/task/t_ActivateOrchestration.html) 
-   - [Workflow Editor] (https://docs.servicenow.com/bundle/kingston-servicenow-platform/page/administer/workflow/reference/workflow-editor.html) 
+   - [Workflow Editor](https://docs.servicenow.com/bundle/kingston-servicenow-platform/page/administer/workflow/reference/workflow-editor.html) 
    
    To begin, navigate to the workflow editor and create a custom activity by clicking on the Custom tab and then the + sign to the right. This will bring a submenu from which JMS can be picked (last item in the menu). 
    
    This will give you a sequence of screens to configure the activity. The next few screenshots describe those steps
+   
+    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/3-JMSPoller-Step1.png)
+    
+    
+    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/4-JMSPoller-Step2.png)
+    
+    
+    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/5-JMSPoller-Step3.png)
+    
+    
+    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/6-JMSPoller-Step4.png)
+    
+    
+    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step5.png)
+   
    
    
  
