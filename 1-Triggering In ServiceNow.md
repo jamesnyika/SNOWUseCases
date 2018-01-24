@@ -140,10 +140,17 @@ And here is the Run Script Activity which actually generates more of a business 
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/8-JMSPoller-CreateEvent.png)
 
-Once you have configured this, you can pretty much run the workflow and see your events created in the Events table 
+Once you have configured this, you can pretty much run the workflow and see your events created in the Events table.  
 Below is an example of this:
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-ExampleProcessedEvent.png)
+
+----
+Summary
+- ServiceNow works by using activities to read from JMS Queues
+- Data should ordinarily be saved to a table and processed from there not on the fly. 
+- Triggering in ServiceNow happens through Events written to the system event registry OR the em_event table.
+- Business rules can then be used to trigger other actions. 
 
 
 The END
