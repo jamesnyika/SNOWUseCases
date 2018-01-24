@@ -1,4 +1,4 @@
-# 1-Triggering In ServiceNow
+# 1-JMS Queues and ServiceNow
 
 ## Some resources
 Below are some resources you may want to watch first to give you a bit of familiarity with the workflow engine. 
