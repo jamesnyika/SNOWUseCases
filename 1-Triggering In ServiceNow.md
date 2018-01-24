@@ -20,7 +20,10 @@ ServiceNow documentation on MID Server Setup is very complete and thorough. Plea
 Ensure your MidServer is up and running and ALL CAPABILITIES are configured on it. 
 
 ## Step 1.5 : Upload your message queue driver jar
-ServiceNow requires the jar file for your message queue driver. 
+ServiceNow requires the jar file for your message queue driver. In the filter navigation type "Jar" and you should see a menu
+item for MID Server jar files. Select that menu item and click the New button to configure a new upload. Enter the necessary information as shown below and the use the paperclip icon on the top of the form to attach your jar file to the form and submit. 
+
+![Queue Contents](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/DriverUpload.png)
 
 ## Step 2 : Configure a credential for logging into your ActiveMQ instance
 We will just use the default out of the box admin/admin credentials. From the ServiceNow filter navigation, type credentials and create a new credential under "Connections and Credentials" as shown below. You will reference this later.
@@ -64,7 +67,8 @@ Key points
   
   ![Testing Connection 2](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/TestConnection2.png)
   
-  
+ ## Step 6 : Create and Configure a JMS Polling WorkFlow
+The Connect
  
 
 
