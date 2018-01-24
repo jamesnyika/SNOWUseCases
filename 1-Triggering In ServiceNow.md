@@ -19,10 +19,21 @@ And here is a sample message
 ServiceNow documentation on MID Server Setup is very complete and thorough. Please follow it [here](https://docs.servicenow.com/bundle/helsinki-servicenow-platform/page/product/mid-server/concept/c_MIDServerInstallation.html) 
 Ensure your MidServer is up and running and ALL CAPABILITIES are configured on it. 
 
+## Step 1.5 : Upload your message queue driver jar
+ServiceNow requires the jar file for your message queue driver. 
+
 ## Step 2 : Configure a credential for logging into your ActiveMQ instance
 We will just use the default out of the box admin/admin credentials. From the ServiceNow filter navigation, type credentials and create a new credential under "Connections and Credentials" as shown below. You will reference this later.
 
 ![Queue Contents](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Credentials.png)
+
+## Step 3 : Configure a Connection Alias
+Under the same "Connections and Credentials" menu, configure a new Connection Alias as shown below. You may give any name you want but remember it for later steps.
+- Type must be JMS
+- You can pick Connection and Credential together. 
+- You may use any name you like. 
+
+![Queue Contents](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ConnectionAlias.png)
 
 ## Step 4 : Configure a JMS Connection 
 Under the same "Connections and Credentials" menu, configure a new Connection as shown below. Important points to configure here relative to your chosen JMS Server are :
@@ -30,6 +41,7 @@ Under the same "Connections and Credentials" menu, configure a new Connection as
 - Provider URL (this is the url to the running queue instance. Your JMS Queue provider normally tells you this)
 - Also make sure you check "Use MID Server" to true (tick mark). 
 - Your Credential field will be the name of the credential you configured in [Step 2](#step-1--configure-your-mid-server).
+- Your Connection Alias comes from [Step 3](#step-3--configure-a-connection-alias)
  
  ![Connection Configuration](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Connection.png)
 
