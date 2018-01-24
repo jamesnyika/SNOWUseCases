@@ -79,17 +79,6 @@ The next steps require that you have the ServiceNow Orchestration plugin turned 
     ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/3-JMSPoller-Step1.png)
     
     
-    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/4-JMSPoller-Step2.png)
-    
-    
-    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/5-JMSPoller-Step3.png)
-    
-    
-    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/6-JMSPoller-Step4.png)
-    
-    
-    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step5.png)
-   
    
    
  
