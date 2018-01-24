@@ -1,4 +1,4 @@
-# Triggering In ServiceNow
+# 1-Triggering In ServiceNow
 ServiceNow has an extensive triggering mechanism that can be used to kick off busines processes or send emails, make phone calls etc. 
 We can also create listeners for different sources as shown below. You access these in the custom tab and click the + icon
 
