@@ -132,14 +132,19 @@ Some things to notice:
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-Workflow.png)
 
-Here is the Create Event Activity
+Here is the Create JMS Event Activity
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-SystemCreateEvent.png)
 
-And here is the Run Script Activity content
+And here is the Run Script Activity which actually generates more of a business event. 
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/8-JMSPoller-CreateEvent.png)
 
+Once you have configured this, you can pretty much run the workflow and see your events created in the Events table 
+Below is an example of this:
+
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-ExampleProcessedEvent.png)
 
 
+The END
 
