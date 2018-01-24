@@ -101,3 +101,25 @@ The next steps require that you have the ServiceNow Orchestration plugin turned 
  By configuring conditions, we configure what paths we want out of this activity. More information on configuring conditions is [here](https://docs.servicenow.com/bundle/istanbul-servicenow-platform/page/administer/using-workflows/task/t_ManageActivityConditions.html)
  
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step5.png)
+
+At this point you have now created a custom activity that can be used in any workflow to read from the configured message queue. 
+
+## Step 7 : Design the WorkFlow
+We need a workflow with a looping construct to be able to repeatedly poll the message queue for messages and then do something with them like 
+- Kick off another workflow
+- Create a record in a table
+- Create a system event
+- Create a business event
+- Send a notification or email
+
+In this workflow we do two of these. We will create a record in the Event Management Event table. We will also create a business event. 
+The workflow we will design will look as follows and is a polling workflow for reading from the queue and doing something with the message. Some resources on creating workflows: 
+[Video Tutorial on Workflow](https://youtu.be/Jgj26yUphBw)
+[Video Tutorial on Workflow 2 - Advanced](https://youtu.be/7nf0p3xdGKA) 
+[Video Tutorial on Workflow - Troubleshooting](https://youtu.be/li7hdfHbK3I)
+
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-Workflow.png)
+
+
+
+
