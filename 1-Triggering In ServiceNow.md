@@ -78,16 +78,16 @@ The next steps require that you have the ServiceNow Orchestration plugin turned 
    
    ---
    
- ### Configure the name and description of your listener
+ ### 1. Configure the name and description of your listener
    
  ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/5-JMSPoller-Step3.png)
  
- ### Configure any input variables.
+ ### 2. Configure any input variables.
  We do not use any at all in this case 
     
  ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/6-JMSPoller-Step4.png)
     
- ### Configure the execution details
+ ### 3. Configure the execution details
  Important points here are :
  - Pick the connection factory configured above
  - Check for a reasonable timout value
@@ -98,14 +98,14 @@ The next steps require that you have the ServiceNow Orchestration plugin turned 
  
  ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step5.png)
  
- ### Configure your output variables
+ ### 4. Configure your output variables
  ServiceNow allows you to define both local variables (local to the Activity) or output variables (that will be passed out to other activities following this one). We only configure output variables in this case. We could also have written to the workflow.scratchpad - an in memory global write area where activities can share data with each other.  
  Key points:
  - when you add a new output variable, you can then 'drag it' to the variable name area and the configure how you want it to be populated. More information is available [here](https://docs.servicenow.com/bundle/istanbul-it-operations-management/page/administer/orchestration-activity-designer/task/t_CreateAnOutputVariable.html) on how to do this. Do not click on post processing as we do not need it. 
  
  ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step6.png)
  
- ### Conditions
+ ### 5. Conditions
  By configuring conditions, we configure what paths we want out of this activity. More information on configuring conditions is [here](https://docs.servicenow.com/bundle/istanbul-servicenow-platform/page/administer/using-workflows/task/t_ManageActivityConditions.html)
  
  ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step7.png)
