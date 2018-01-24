@@ -2,5 +2,6 @@
 ServiceNow has an extensive triggering mechanism that can be used to kick off busines processes or send emails, make phone calls etc. 
 We can also create listeners 
 
-[Listeners in ServiceNow](https://github.com/jamesnyika/SNOWUseCases/images/ServiceNow Listener Types.png)
+----
+[Listeners](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ServiceNowListenerTypes.png)
 
