@@ -1,11 +1,16 @@
 # 1-Triggering In ServiceNow
-ServiceNow has an extensive triggering mechanism that can be used to kick off business processes, send emails, make phone calls etc. 
-We can also create listeners for different sources as shown below. You access these in the custom tab and click the + icon
-Below are some resources you may want to watch first to give you a bit of familiarity with the workflow engine
+
+## Some resources
 Some resources on creating workflows: 
 - [Video Tutorial on Workflow](https://youtu.be/Jgj26yUphBw)
 - [Video Tutorial on Workflow 2 - Advanced](https://youtu.be/7nf0p3xdGKA) 
 - [Video Tutorial on Workflow - Troubleshooting](https://youtu.be/li7hdfHbK3I)
+
+
+ServiceNow has an extensive triggering mechanism that can be used to kick off business processes, send emails, make phone calls etc. 
+We can also create listeners for different sources as shown below. You access these in the custom tab and click the + icon
+Below are some resources you may want to watch first to give you a bit of familiarity with the workflow engine.
+
 
 
 ----
