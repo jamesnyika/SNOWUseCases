@@ -1,6 +1,12 @@
 # 1-Triggering In ServiceNow
 ServiceNow has an extensive triggering mechanism that can be used to kick off business processes, send emails, make phone calls etc. 
 We can also create listeners for different sources as shown below. You access these in the custom tab and click the + icon
+Below are some resources you may want to watch first to give you a bit of familiarity with the workflow engine
+Some resources on creating workflows: 
+-[Video Tutorial on Workflow](https://youtu.be/Jgj26yUphBw)
+-[Video Tutorial on Workflow 2 - Advanced](https://youtu.be/7nf0p3xdGKA) 
+-[Video Tutorial on Workflow - Troubleshooting](https://youtu.be/li7hdfHbK3I)
+
 
 ----
 ![Listeners](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ServiceNowListenerTypes.png)
@@ -113,11 +119,7 @@ We need a workflow with a looping construct to be able to repeatedly poll the me
 - Send a notification or email
 
 In this workflow we do two of these. We will create a record in the Event Management Event table. We will also create a business event. 
-The workflow we will design will look as follows and is a polling workflow for reading from the queue and doing something with the message. Some resources on creating workflows: 
-[Video Tutorial on Workflow](https://youtu.be/Jgj26yUphBw)
-[Video Tutorial on Workflow 2 - Advanced](https://youtu.be/7nf0p3xdGKA) 
-[Video Tutorial on Workflow - Troubleshooting](https://youtu.be/li7hdfHbK3I)
-
+The workflow we will design will look as follows and is a polling workflow for reading from the queue and doing something with the message. 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/JMSPoller-Workflow.png)
 
 
