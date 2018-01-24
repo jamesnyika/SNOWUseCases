@@ -3,6 +3,5 @@ ServiceNow has an extensive triggering mechanism that can be used to kick off bu
 We can also create listeners 
 
 ----
-
-[[/images/ServiceNowListenerTypes.png]]
+[Listeners](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ServiceNowListenerTypes.png)
 
