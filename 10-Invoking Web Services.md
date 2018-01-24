@@ -1,6 +1,7 @@
 # Invoking Web Services and Passing Business Data
 
-ServiceNow has a number of documented examples on invoking web services such as those listed [here](https://docs.servicenow.com/bundle/istanbul-application-development/page/integrate/examples/concept/c_InboundWebServiceExamples.html) 
+ServiceNow has a number of documented examples on invoking web services such as those listed [here](https://docs.servicenow.com/bundle/istanbul-application-development/page/integrate/examples/concept/c_InboundWebServiceExamples.html)
+Every invocation of REST / SOAP services in ServiceNow supports passing business data from any table to the service.
 
 The primary methods of invoking web services are :
 ### From a workflow : configure a custom Rest Activity 
