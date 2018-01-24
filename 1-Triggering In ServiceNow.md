@@ -1,5 +1,5 @@
 # 1-Triggering In ServiceNow
-ServiceNow has an extensive triggering mechanism that can be used to kick off busines processes or send emails, make phone calls etc. 
+ServiceNow has an extensive triggering mechanism that can be used to kick off business processes, send emails, make phone calls etc. 
 We can also create listeners for different sources as shown below. You access these in the custom tab and click the + icon
 
 ----
@@ -44,5 +44,27 @@ Under the same "Connections and Credentials" menu, configure a new Connection as
 - Your Connection Alias comes from [Step 3](#step-3--configure-a-connection-alias)
  
  ![Connection Configuration](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Connection.png)
+ 
+## Step 5 : Test your JMS Connection 
+The Connection page has a link at the bottom to "Test Connection" Click on it and you should see go through the following two steps.
+Key points
+- Select the correct mid server you are using for this tutorial
+- Ensure you get a validated connection. A failed validation means one of many things could be happening
+  - Your MID server is not running
+  - Your credential configuration passed in wrong credentials
+  - Your Message Queue Server is not running
+  - You have configured an incorrect Provider URL
+  - You configured an incorrect InitialContextFactory
+  - You did not upload the correct and non-corrupted JMS Driver jar file.
+  - You might not be connected to the/a network
+  
+  ![Testing Connection 1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/TestConnection1.png)
+  
+  and after validating you should see 
+  
+  ![Testing Connection 2](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/TestConnection2.png)
+  
+  
+ 
 
 
