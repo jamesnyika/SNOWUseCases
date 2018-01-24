@@ -76,7 +76,16 @@ The next steps require that you have the ServiceNow Orchestration plugin turned 
    
    This will give you a sequence of screens to configure the activity. The next few screenshots describe those steps
    
-    ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/3-JMSPoller-Step1.png)
+ ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/5-JMSPoller-Step3.png)
+    
+ ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/6-JMSPoller-Step4.png)
+    
+ ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step5.png)
+ 
+ ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step6.png)
+ 
+ ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/7-JMSPoller-Step7.png)
+   
     
     
    
