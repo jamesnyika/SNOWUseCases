@@ -16,3 +16,12 @@ Provides methods for iterating over XML elements.
 
 3. [XMLElement](https://docs.servicenow.com/bundle/jakarta-servicenow-platform/page/administer/edge-encryption/concept/c_XMLElementAPI.html)
 Provides methods for iterating through XML elements and mapping values to fields in a table.
+
+## Using Data Sources to consume files
+More information on how this is done in ServiceNow is [here](https://docs.servicenow.com/bundle/kingston-platform-administration/page/administer/import-sets/concept/c_DataSources.html)
+The basic steps are 
+
+### Step 1 : Define your data source
+Navigate to Data Sources on the filternavigation and create a new Data Source record
+
+![]()
