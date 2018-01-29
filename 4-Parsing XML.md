@@ -23,6 +23,9 @@ The basic steps are
 
 ### Step 1 : Define your data source
 Navigate to Data Sources on the filternavigation and create a new Data Source record
+Important points:
+  - Data sources can be retrieved from http/https/ftp/scp/file and attachment sources. In this example, the attachment on this record is the source of the data to be read in. 
+  - Files can be read in through zip formats and nodes are picked out based on xpath expressions
 
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/DataSource1.png)
 
