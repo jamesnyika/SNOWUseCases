@@ -1,5 +1,10 @@
 # Parsing XML in ServiceNow
-ServiceNow offers a number of APIs for handling XML inside the scripts. The API can use XPath filters to pick child nodes for mapping or manipulation
+
+One of the best ways to pull in xml data in ServiceNow is not to work with it directly as XML but rather treat it as a [data source](#), pull the data into ServiceNow (this creates a transform map and puts it into staging tables) and then work with the Glide APIs to manipulate the data, apply business rules etc.
+
+However, if you MUST parse data then : 
+
+ServiceNow offers a number of APIs for programatically handling XML inside the scripts. The API can use XPath filters to pick child nodes for mapping or manipulation
 
 Specifically these are 
 
