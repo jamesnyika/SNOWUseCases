@@ -10,4 +10,4 @@ Step 2 : Configure a business rule and set triggering criteria
 ![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/BR2.png)
 
 Step 3 : Configure a business rule and set triggering criteria
-![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/BR1]3.png)
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/BR3.png)
