@@ -23,5 +23,19 @@ The basic steps are
 
 ### Step 1 : Define your data source
 Navigate to Data Sources on the filternavigation and create a new Data Source record
+Important points:
+  - Data sources can be retrieved from http/https/ftp/scp/file and attachment sources. In this example, the attachment on this record is the source of the data to be read in. 
+  - Files can be read in through zip formats and nodes are picked out based on xpath expressions
 
-![]()
+![Step1](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/DataSource1.png)
+
+### Step 2 : Test the datasource
+Each datasource gives you a set of links to test out reading from the datasource. 
+Try it out an in step 3 look at the results of the import into the Staging tables.
+
+![Step2](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/DataSource2.png)
+
+### Step 3 : Review the results of the import in Staging
+Once in staging tables, you can use [transform maps](https://docs.servicenow.com/bundle/kingston-platform-administration/page/script/server-scripting/concept/c_CreatingNewTransformMaps.html) to push them to their final resting tables.
+
+![Step3](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/DataSource3.png)
