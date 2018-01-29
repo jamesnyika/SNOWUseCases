@@ -1,4 +1,4 @@
-# Parsing XML in ServiceNow
+# 4-Parsing XML in ServiceNow
 
 One of the best ways to pull in xml data in ServiceNow is not to work with it directly as XML but rather treat it as a [data source](#), pull the data into ServiceNow (this creates a transform map and puts it into staging tables) and then work with the Glide APIs to manipulate the data, apply business rules etc.
 
