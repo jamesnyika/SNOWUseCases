@@ -1,6 +1,7 @@
 # Export XML Data from Business Data
+ServiceNow offers a number of different ways to export out data as XML
 
-### Basic 
+### 1. Basic - single record
 Right click on any form (eg. incident) and there export option dumps out and xml file or PDF file in two orientations. 
 
 ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/BasicXML.png)
@@ -101,7 +102,7 @@ Here is a partial example of an exported XML file
 ...
 ````
 
-### Export from List Views
+### Export from List Views - Multiple Records
 On any list view, right click on a column and select export as XML
 
 ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/XMLExp.png)
