@@ -100,3 +100,8 @@ Here is a partial example of an exported XML file
 <sys_updated_on>2016-01-07 22:08:24</sys_updated_on>
 ...
 ````
+
+### Export from List Views
+On any list view, right click on a column and select export as XML
+
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/XMLExp.png)
