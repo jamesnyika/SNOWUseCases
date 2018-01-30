@@ -1,5 +1,5 @@
 # 21-Configuring Roles and Permissions
-Configuring roles and permissions for business data on forms is handled through :
+Configuring roles and permissions for business data on forms is handled through a combination of 3 capabilites :
 
 ## 1. Filters 
 Filters are used to control what data is allowed to reach the screen. Consider the navigation items on the filter navigation. Many are filters on
