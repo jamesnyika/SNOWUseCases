@@ -7,4 +7,4 @@ using a scheduler or on demand.
 
 For an example see the screen below where we configure a data source for pulling FTP files from an external system.
 
-[FTP](https://docs.servicenow.com/bundle/jakarta-servicenow-platform/page/administer/edge-encryption/concept/c_XMLContentAPI.html)
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/FTP.png)
