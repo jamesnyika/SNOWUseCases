@@ -15,11 +15,9 @@ publisher:  Noship Media
 rights: © 2018 James Nyika, CC BY-NC
 ibooks:
   version: 1.1
-date: 2018/01/01
-page-progression-direction: ltr
-ibooks:
-  version: 1.1
+  date: 2018/01/01
+  page-progression-direction: ltr
   specified-fonts: false
   binding: true
-  scroll-axis: default
+  scroll-axis: default.
 
