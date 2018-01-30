@@ -7,4 +7,4 @@ using a scheduler or on demand.
 
 For an example see the screen below where we configure a data source for pulling FTP files from an external system.
 
-![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/FTP.png)
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/FTP2.png)
