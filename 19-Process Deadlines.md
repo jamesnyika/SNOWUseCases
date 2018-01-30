@@ -6,4 +6,4 @@ Instead you use Service Levels to manage notifications and alerting for activite
  be tied to a service level that takes into consideration the total time alotted for the activity and the whole process. These SLAs can then handle
  any alerting and notifications if they are breached. 
  
- For more information see the previous use case 18.
+ For more information see the previous [use case 18](https://github.com/jamesnyika/SNOWUseCases/blob/master/18-Automatic%20Notification%20and%20Alerting.md).
