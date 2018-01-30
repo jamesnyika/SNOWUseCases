@@ -18,7 +18,15 @@ You can create a new Incident task and assign it to any user in the system
 
 
 ## Automatically
-This is managed and triggered using business rules. Here we show an example of a business rules that does human task assignment for incidents
+This is managed and triggered using business rules. Here we show an example of a business rules that does human task assignment for incidents automatically to a named individual on creation (on insert)
+
+### Step 1 - Define a new business rule
+Set the conditions to be only for on insert, of records on the incident table. 
+Do not click advanced unless you want to use scripting mode
 
 ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/HumanTask3.png)
+
+### Step 1 - Define the action for the business rule 
+Set a field on the record (assigned to) to a specific person.
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/HumanTask4.png)
 
