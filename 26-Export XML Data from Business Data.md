@@ -3,6 +3,7 @@
 ### Basic 
 Right click on any form (eg. incident) and there export option dumps out and xml file or PDF file in two orientations. 
 
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/BasicXML.png)
 
 Here is a partial example of an exported XML file
 ````
