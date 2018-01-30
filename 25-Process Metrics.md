@@ -3,5 +3,14 @@
 
 There are few out of the box dashboards but numerous metrics as shown in these lists
 
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/workflowdah.png)
+
+Workflow data
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/pm2.png)
+
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/pm3.png)
+
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/pm.png)
+
 
  
