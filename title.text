@@ -1,0 +1,25 @@
+---
+title:
+- type: main
+  text: Common Tasks in ServiceNow
+- type: subtitle
+  text: A short guide to meeting common enterprise requirements for software SAAS platforms
+creator:
+- role: author
+  text: James Nyika
+identifier:
+- scheme: DOI
+  text: doi:10.234234.234/33
+language: en-US
+publisher:  Noship Media
+rights: © 2018 James Nyika, CC BY-NC
+ibooks:
+  version: 1.1
+date: 2018/01/01
+page-progression-direction: ltr
+ibooks:
+  version: 1.1
+  specified-fonts: false
+  binding: true
+  scroll-axis: default
+
