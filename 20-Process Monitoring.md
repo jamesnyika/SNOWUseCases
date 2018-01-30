@@ -7,8 +7,10 @@
  Below are some screenshots of that some of the monitors will show.
  
  ### Process Data Tabs
+ ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ProcMon1.png)
  
  ### Process Real Time Flow
+ ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/ProcMon2.png)
  
  
  
