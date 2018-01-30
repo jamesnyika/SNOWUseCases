@@ -1,0 +1,4 @@
+# 7-Sending data to an external Content Management System
+Servicenow does not natively support the CMIS protocol but it does offer mechanisms for pushing content/files to third party systems
+using FTP, HTTP(s), REST, SOAP or SCP (among other methods)
+
