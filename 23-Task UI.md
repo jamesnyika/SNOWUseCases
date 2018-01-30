@@ -7,3 +7,5 @@
  and below is the detail of what that module contains
  
  ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Module.png)
+ 
+
