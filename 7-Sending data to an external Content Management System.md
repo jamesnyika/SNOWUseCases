@@ -14,7 +14,7 @@ This is the preferred method of pushing this content out because it
 ### Step-1 Configure Export Definition to define what will be exported
 ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Export1.png)
 
-### Step-2 Configure Export Target to define what will be exported
+### Step-2 Configure Export Target to define where it will be exported
 This use case requires use of the MID server so ensure that it is running or you cannot define a target.
 ![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/Export2.png)
 
