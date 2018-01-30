@@ -4,3 +4,5 @@ File polling in ServiceNow is handled by combining the creation of a data source
 Below is an example of an LDAP User import mechanism that targets a datasource and ties it to a schedule. For a more fine grained scheduling of the action, 
 a job must be defined and triggered.
 
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/SImport.png)
+
