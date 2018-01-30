@@ -7,5 +7,5 @@ any other conditions that make sense for the business.
 
 ### Example 1: Case - Priority 1 resolution (8 hour)
 The screen below shows the configuration of a Priority 1 SLA that can be tied to a task to give it the desired feature for this use case
-
+![Step](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/SLA1.png)
 
