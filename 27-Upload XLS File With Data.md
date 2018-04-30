@@ -18,6 +18,8 @@ Large tables with many columns take a while to generate so be patient.
 ![Step-4](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step4-DownloadTemplateFile.png)
 
 ### Step 5 - Upload you data and commit the data to see it appear in the table.
+Once all data is in the XLS file, return to the same screen you downloaded the form from and click on 'Upload' to submit the data file.
+ServiceNow will churn through and generate a transform map on the fly to transform your data as best as it can. 
 If there are conflicts or missing columns then ServiceNow was not able to reconcile your field in reference to an existing record in another table or
 it might be a date field where additional processing would have been required.
 
