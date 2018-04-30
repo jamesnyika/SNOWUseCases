@@ -16,3 +16,13 @@ Large tables with many columns take a while to generate so be patient.
 
 ### Step 4 - Once Generated - Download the file and begin filling with data
 ![Step-4](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step4-DownloadTemplateFile.png)
+
+### Step 5 - Upload you data and commit the data to see it appear in the table.
+If there are conflicts or missing columns then ServiceNow was not able to reconcile your field in reference to an existing record in another table or
+it might be a date field where additional processing would have been required.
+
+## Key Points
+* Use this method when the data you have is generally very straightforward and does not have date time conversions and few references.
+* If you have reference field values in your data make source
+  *  The reference value in your data = display value of the referenced table
+  *  Date / Time fields will require additional processing an using the Transform Map approach may work better.
