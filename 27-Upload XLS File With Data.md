@@ -12,7 +12,7 @@ Click on any column heading hamburger icon (three lines)
 
 ### Step 3 - Wait
 Large tables with many columns take a while to generate so be patient.
-![Step-3](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step1-Wait.png)
+![Step-3](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step3-Wait.png)
 
 ### Step 4 - Once Generated - Download the file and begin filling with data
-![Step-4](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step1-DownloadTemplateFile.png)
+![Step-4](https://github.com/jamesnyika/SNOWUseCases/raw/master/images/27-Step4-DownloadTemplateFile.png)
